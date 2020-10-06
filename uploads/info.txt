@@ -1,0 +1,1 @@
+This folder includes the photos uploaded to the local server before it send to the drive.Eventually the files uploaded here will be deleted after the successful drive upload.

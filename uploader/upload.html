@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Upload File</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/upload.js"></script>
+    <link rel="icon" type="image/png" href="assets/images/icons/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/upload.css">
+</head>
+
+<body>
+    <main class="main_full">
+        <div class="container">
+            <div class="panel">
+                <form action="/upload" method="post" enctype="multipart/form-data">
+                    <div class="button_outer">
+                        <div class="btn_upload">
+
+                            <input type="file" id="upload_file" name="photo">
+                            Upload Image
+                        </div>
+
+
+
+                        <div class="processing_bar"></div>
+                        <div class="success_box"></div>
+
+                    </div>
+
+                    <div class="error_msg"></div>
+
+                    <div class="uploaded_file_view" id="uploaded_view">
+
+                        <div>
+                            <input type="submit" name="submit">
+                        </div>
+                        <br />
+                        <span class="file_remove">X</span>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
